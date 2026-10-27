@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Absolute positioning overlay for building interactive regions */
+.building-overlay {
+  position: absolute;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10;
+  border-radius: 6px;
+}
+
+.building-overlay:hover {
+  background-color: rgba(255, 255, 0, 0.2);
+  border: 1.5px dashed rgba(255, 215, 0, 0.7);
+}
+
+/* Requirement 2: Specific Highlight CSS Class applied when searched or clicked */
+.building-highlight {
+  background-color: rgba(255, 255, 0, 0.4) !important;
+  box-shadow: 0 0 15px 5px rgba(255, 220, 0, 0.8) !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid rgba(255, 235, 59, 0.95) !important;
+  z-index: 25 !important;
+}
+
+/* Requirement 2: Special Circle styling for 中美堂 (Sinica Hall) */
+.building-circle {
+  border-radius: 50% !important;
+}

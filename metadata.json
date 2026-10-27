@@ -1,0 +1,6 @@
+{
+  "name": "輔大互動校園地圖",
+  "description": "輔仁大學校園導覽互動地圖，支援大樓即時模糊搜尋高亮、學院設施導覽、編輯模式與 LocalStorage 狀態持久化、自訂設施標記 (飲水機/AED/洗手間等) 與 GPS 手機即時定位追蹤。",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
